@@ -3,7 +3,6 @@ int y = 600;
 
 void setup() {
     size(800, 800);
-    
 }
 
 void draw() {
@@ -16,5 +15,11 @@ void draw() {
     ellipse(x, y + 95, 35, 35);
     fill(100, 100, 100);
     triangle(x, y + 10, x + 50, y + 100, x - 50, y + 100);
-
+    y -= 5;
+    fill(#FFFFFF);
+    ellipse(350,600,3,3);
+    ellipse(268,185,3,3);
+    ellipse(285,653,3,3);
+    ellipse(375,296,3,3);
+    ellipse(589,234,3,3);
 }
