@@ -1,1 +1,12 @@
 size(600,600);
+fill(255,0,0,100);
+ellipse(215,175,300,300);
+fill(200, 0, 100, 100);
+ellipse(375,175,300,300);
+fill(255, 170, 0, 100);
+ellipse(300,325,300,300);
+fill(255,255,255);
+textSize(20);
+text("Tennis",150, 150);
+text("Computer Science",365,150);
+text("Math",285,360);
